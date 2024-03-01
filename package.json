@@ -1,0 +1,22 @@
+{
+  "name": "vite-hono-post",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "dev:wrangler": "wrangler pages dev --local --port 4567 dist/"
+  },
+  "dependencies": {
+    "hono": "^4.0.8",
+    "preact": "^10.19.5"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.8.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4",
+    "wrangler": "^3.30.1"
+  }
+}
